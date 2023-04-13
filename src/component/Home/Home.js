@@ -59,7 +59,7 @@ const Home = () => {
                 role="tabpanel"
                 aria-labelledby="breakfast-tab"
               >
-                <div className="row justify-content-between px-4">
+                <div className="row justify-content-around px-4">
                   {items
                     .filter(
                       (item) => item.cat === categories[selectedCategory].name
