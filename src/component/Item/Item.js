@@ -3,7 +3,7 @@ import testImage from "../../imgs/test_image.jpg";
 
 const Item = (props) => {
   return (
-    <div className="col-md-6 py-2 item_card">
+    <div className="col-md-5 py-2 item_card">
       <div className="single_menu">
         <img
           src={props.item.imageUrl!== "null" ?props.item.imageUrl: testImage}
