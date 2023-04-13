@@ -1,10 +1,6 @@
-/* body {
-    background-image: url("https://images.unsplash.com/photo-1513530176992-0cf39c4cbed4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-} */
+body{
+    background-color: #e9ecefc9;
+}
 
 .page_title {
     padding: 30px 0px;
