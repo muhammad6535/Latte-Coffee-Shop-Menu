@@ -6,7 +6,7 @@ const Item = (props) => {
     <div className="col-md-6 py-2 item_card">
       <div className="single_menu">
         <img
-          src={props.item.imageUrl!= "null" ?props.item.imageUrl: testImage}
+          src={props.item.imageUrl!== "null" ?props.item.imageUrl: testImage}
           alt={props.item.name}
         />
         <div className="menu_content">

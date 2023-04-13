@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import "./Home.css";
 import Item from "../Item/Item";
 import Category from "../Category/Category";
