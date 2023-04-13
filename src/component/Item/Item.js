@@ -1,9 +1,7 @@
 import React from "react";
-import { useState } from "react";
 import testImage from "../../imgs/test_image.jpg";
 
 const Item = (props) => {
-  const img = props.item.imageUrl;
   return (
     <div className="col-md-6 py-2 item_card">
       <div className="single_menu">

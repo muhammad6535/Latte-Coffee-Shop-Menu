@@ -4,7 +4,6 @@ import "./Home.css";
 import Item from "../Item/Item";
 import Category from "../Category/Category";
 import data from "../../data";
-import logo from "../../imgs/coffee.jpg";
 
 const Home = () => {
   const [distinctCats, setDistinctCats] = useState([
@@ -22,7 +21,6 @@ const Home = () => {
   // function to display an alert when a category button is clicked
   const handleCategoryClick = (category) => {
     setSelectedCategory(distinctCats.indexOf(category));
-    // alert(`You clicked on ${distinctCats.indexOf(category)}`);
   };
 
   // loop through categories and render Category component for each category
@@ -32,19 +30,8 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div
-                className="page_title text-center mb-4"
-                style={
-                  {
-                    // position: "relative",
-                    // overflow: "hidden",
-                    // height: "400px",
-                  }
-                }
-              >
+              <div className="page_title text-center mb-4">
                 <h1 className="display-3">LATTE </h1>
-                {/* <img src={logo} alt="Latte" style={{ width: "100%" }} /> */}
-                {/* <div className="single_line"></div> */}
               </div>
             </div>
           </div>
