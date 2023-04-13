@@ -8,7 +8,7 @@ const Item = (props) => {
         <img
           src={props.item.imageUrl!== "null" ?props.item.imageUrl: testImage}
           alt={props.item.name}
-        />
+        className="pic"/>
         <div className="menu_content">
           <div className="d-flex justify-content-between  price_name">
             <h4 className="text-right">{props.item.name}</h4>

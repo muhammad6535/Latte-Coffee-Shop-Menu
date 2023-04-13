@@ -137,3 +137,8 @@ body{
     height: 170.89px !important;
     max-height: 170.89px !important;
 }
+
+.pic{
+    object-fit:cover;
+    object-position:50% 50%;
+}
