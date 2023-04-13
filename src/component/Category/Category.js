@@ -8,6 +8,7 @@ const Category = (props) => {
         className={`category_btn nav-link ${isActive}`}
         data-toggle="tab"
         role="tab"
+        href="#"
         onClick={() => onCategoryClick(categoryName)}
       >
         {categoryName}
