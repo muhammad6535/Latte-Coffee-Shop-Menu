@@ -1,5 +1,3 @@
-import React from "react";
-
 const Category = (props) => {
   const { isActive, categoryName, onCategoryClick } = props;
   return (

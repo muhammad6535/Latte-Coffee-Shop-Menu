@@ -1,5 +1,5 @@
 import React from "react";
-import testImage from "../../imgs/test_image.jpg";
+import testImage from "../../imgs/no_image.jpg";
 
 const Item = (props) => {
   return (
